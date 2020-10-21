@@ -40,6 +40,7 @@ if __name__ == '__main__':
 
     while True:
         temp = get_temp()
+        print('temperature {0}'.format(temp))
 
         # Start the fan if the temperature has reached the limit and the fan
         # isn't already running.
